@@ -1,0 +1,22 @@
+{
+  "name": "marketup-backend-js",
+  "version": "1.0.0",
+  "description": "MarketUp backend — Node.js/Express implementation",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.3",
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.7.4",
+    "uuid": "^9.0.1"
+  }
+}
